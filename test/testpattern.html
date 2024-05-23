@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let rows=parseInt(prompt("Enter the no. of rows"))
+        
+        
+       
+  
+        for(let i=1;i<=rows;i++){
+            for(let j=i;j<rows;j++){
+                if (j === 1 || j === i ) {
+                    document.write("*");
+                } 
+                if (j === 2 || j === i ) {
+                    document.write("1");
+                }
+                if (j === 3 || j === i) {
+                    document.write("2");
+                }
+                if (j === 4 || j === i ) {
+                    document.write("3");
+                }
+                
+            }
+           
+            document.write("<br>")
+        }
+    </script>
+</body>
+</html>
